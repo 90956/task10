@@ -9,9 +9,6 @@ body{
     font-family: sans-serif;
 }
 
-.flex .color{
-    color: black;
-}
 .container{
     display: flex;
 }
@@ -36,12 +33,18 @@ body{
 .flex ul{
     display: flex;
     list-style-type: none;
-    text-decoration: none;
 }
 .flex li{
     margin-left: -36px;
     padding-right: 85px;
     color: lightgray;
+}
+.flex li a{
+    text-decoration: none;
+    color: lightgray;
+}
+.flex .color a{
+    color: black;
 }
 .flex1{
     width: auto;
