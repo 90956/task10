@@ -1,11 +1,16 @@
 body{
-    background-color: gray;
+    background-color: lightgray;
 }
 .over {
     margin: 0 auto;
     width: 1045px;
     background-color: white;
     padding: 20px;
+    font-family: sans-serif;
+}
+
+.flex .color{
+    color: black;
 }
 .container{
     display: flex;
@@ -36,16 +41,18 @@ body{
 .flex li{
     margin-left: -36px;
     padding-right: 85px;
+    color: lightgray;
 }
 .flex1{
     width: auto;
-    height: 200px;
+    height: 222px;
     background-color: black;
     text-align: center;
 }
 .gray{
     padding-top: 44px;
-    color: rgb(153, 94, 94);
+    color: rgb(97 93 93);
+    font-weight: 100;
 }
 .white{
     color: white;
@@ -53,19 +60,21 @@ body{
     font-weight: 800;
 }
 .light{
-    color: rgb(153, 94, 94);
+    color: gray;
+    font-weight: 700;
 }
 button{
     color: white;
     background-color: black;
     border: 2px solid white;
-    padding: 4px; ;
+    padding: 9px 36px;
 }
 .three div p{
     display: flex;
 }
 .three p img{
-    width: 25px;
+    width: 17px;
+    height: 20px;
     margin-right: 10px;
 }
 .three ul{
@@ -84,11 +93,13 @@ button{
     display: flex;
 }
 .four p img{
-    width: 30px;
+    width: 23px;
+    height: 17px;
     margin-right: 10px;
 }
 .four1{
     margin-top: 40px;
+    padding-left: 14px;
     width: auto;
     height: auto;
     background-color:white;
@@ -96,16 +107,17 @@ button{
     display: flex;
 }
 .four1_sub_left{
-    width: 90%;
+    width: 86%;
 }
 .four1_sub_right{
-    width: 10%;
+    width: 14%;
     background-color: lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .five1{
+    padding-left: 14px;
     width: auto;
     height: auto;
     background-color:white;
@@ -113,10 +125,10 @@ button{
     display: flex;
 }
 .five1_sub_left{
-    width: 90%;
+    width: 86%;
 }
 .five1_sub_right{
-    width: 10%;
+    width: 14%;
     background-color: lightgray;
     display: flex;
     justify-content: center;
@@ -124,16 +136,17 @@ button{
 }
 .six1{
     width: auto;
+    padding-left: 14px;
     height: auto;
     background-color:white;
     border-left: 4px solid lightgray;
     display: flex;
 }
 .six1_sub_left{
-    width: 90%;
+    width: 86%;
 }
 .six1_sub_right{
-    width: 10%;
+    width: 14%;
     background-color: lightgray;
     display: flex;
     justify-content: center;
@@ -147,11 +160,13 @@ button{
     display: flex;
 }
 .seven p img{
-    width: 30px;
+    width: 29px;
+    height: 22px;
     margin-right: 10px;
 }
 .seven1{
     margin-top: 40px;
+    padding-left: 14px;
     width: auto;
     height: auto;
     background-color:white;
@@ -159,6 +174,7 @@ button{
 }
 .less{
     font-size: small;
+    color: gray;
 }
 .bold{
     font-size: larger;
@@ -166,4 +182,8 @@ button{
 }
 .eight a{
     margin-right: 20px;
+}
+.eight a img{
+    width: 25px;
+    height: 25px;
 }
